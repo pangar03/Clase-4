@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+    <form action="" method="post">
+        <section>
+            <div>
+                <label for="input-name">Nombre:</label>
+                <input type="text" name="input-name" required autofocus>
+            </div>
+            <div>
+                <label for="input-email">Correo:</label>
+                <input type="email" name="input-email" required>
+            </div>
+            <div>
+                <label for="input-url">Url:</label>
+                <input type="url" name="input-url" placeholder="Escriba la URL de tu pagina web">
+            </div>
+            <div>
+                <label for="input-date">Fecha:</label>
+                <input type="date" name="input-date">
+            </div>
+            <div>
+                <label for="input-time">Tiempo:</label>
+                <input type="time" name="input-time">
+            </div>
+            <div>
+                <label for="input-datetime">Fecha y hora:</label>
+                <input type="datetime-local" name="input-datetime">
+            </div>
+            <div>
+                <label for="input-number">Numero:</label>
+                <input type="number" name="input-number" min="-10" max="10" required>
+            </div>
+            <div>
+                <label for="input-phone">Telefono:</label>
+                <input type="tel" name="input-phone">
+            </div>
+            <div>
+                <input type="submit" value="Envio">
+            </div>
+            <div>
+                <input type="reset" value="Reset">
+            </div>
+        </section>
+    </form>
+</body>
+</html>
